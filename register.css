@@ -1,0 +1,109 @@
+body{
+    font-family: latha;
+    color: black;
+    background: url(/img/coffee\ barista\ background.jpg)
+    no-repeat;
+    background-size: cover;
+}
+.box{
+    width: 900px;
+    float: right;
+    border: 1px solid none;
+    padding-right: -100px;
+    }
+    
+    .box ul li{
+        width: 120px;
+        float: left;
+        margin: 10px auto;
+        text-align: right;
+        position:sticky;
+        font: bold;
+        color:rgb(156, 58, 58);
+    }
+    
+    .box ul li a{
+    text-decoration: none;
+    font-family:cursive, Calibri, 'Trebuchet MS', sans-serif, bold;
+    font:bold;
+    color:rgb(138, 98, 74);
+    }
+    
+    .box ul li a:hover{color:silver};
+    
+    .head{
+        padding: 50px;
+        border: 1px solid;
+        position: sticky;
+    }
+    
+    .head h2{
+        float:left;
+        border: 1px solid none;
+        text-decoration: none;
+        font-family:cursive, Calibri, 'Trebuchet MS', sans-serif, bold;
+        font:xx-large;
+        top:-20%;
+        -ms-transform: translateY(-20%);
+        transform: translateY(-20%);
+        color:rgb(138, 98, 74);
+    }
+
+    
+    .form-box
+    {
+        width:380px;
+        height:480px;
+        position:relative;
+        margin:2% auto;
+        background:rgba(0,0,0,0.3);
+        padding:10px;
+        overflow: hidden;
+    }
+
+    .heading h1
+    {
+        align-content: center  ;
+        border: 1px solid none;
+        text-decoration: none;
+        font-family:cursive, Calibri, 'Trebuchet MS', sans-serif, bold;
+        font:xx-large;
+        color:rgb(138, 98, 74);
+    }
+    
+    .input-field
+    {
+        width: 100%;
+        padding:10px 0;
+        margin:5px 0;
+        border-left:0;
+        border-top:0;
+        border-right:0;
+        border-bottom: 1px solid #999;
+        outline:none;
+        background: transparent;
+    }
+
+    #register input
+    {
+        color:silver;
+        font-size: 15;
+    }
+
+    .submit-btn
+    {
+        width: 85%;
+        padding: 10px 30px;
+        cursor: pointer;
+        display: block;
+        margin: auto;
+        background: rgb(138, 98, 74);
+        border: 0;
+        outline: none;
+        border-radius: 30px;
+    }   
+
+    .check-box
+    {
+        margin: 30px 10px 34px 0;
+    }

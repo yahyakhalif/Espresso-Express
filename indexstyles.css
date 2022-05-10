@@ -1,0 +1,231 @@
+body{
+    font-family: latha;
+    color: black;
+    background: url(/img/coffee\ barista\ background.jpg)
+    no-repeat;
+    background-size: cover;
+}
+
+.box{
+width: 900px;
+float: right;
+border: 1px solid none;
+padding-right: -100px;
+}
+
+.box ul li{
+    width: 120px;
+    float: left;
+    margin: 10px auto;
+    text-align: right;
+    position:sticky;
+    font: bold;
+    color:rgb(156, 58, 58);
+}
+
+.box ul li a{
+text-decoration: none;
+font-family:cursive, Calibri, 'Trebuchet MS', sans-serif, bold;
+font:bold;
+color:rgb(138, 98, 74);
+}
+
+.box ul li a:hover{color:silver};
+
+.head{
+    padding: 50px;
+    border: 1px solid;
+    position: sticky;
+}
+
+.head h2{
+    float: left;
+    border: 1px solid none;
+    text-decoration: none;
+    font-family:cursive, Calibri, 'Trebuchet MS', sans-serif, bold;
+    font:xx-large;
+    top:-20%;
+    -ms-transform: translateY(-20%);
+    transform: translateY(-20%);
+    color:rgb(138, 98, 74);
+}
+
+.wd{ 
+    background-color: black;
+    width: 300px;
+    height: 500px;
+    padding: 100px;
+    opacity: 0.75;
+    padding: 40px;
+    top: 15%;
+    -ms-transform: translateY(15%);
+    transform: translateY(15%);
+}
+
+.wd h1{
+    text-align: justify;
+    color: rgb(138, 98, 74) ;
+    text-transform: uppercase;
+    font-weight: 90px;
+
+}
+
+.wd h2{
+    text-align: centre;
+    color: rgb(138, 98, 74);
+    font-weight: normal;
+    padding: -40px;
+    font-family:cursive;
+
+}
+
+.wd h4{
+    text-align: centre;
+    color: darkgrey;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin: 50px auto;
+    font-family:cursive;
+}
+
+
+
+
+.opt form, input[type = "button"]{
+    background-color: black;
+    color:silver;
+    opacity: 110%;
+    padding: 10px;
+    margin: -14px auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family:cursive;
+    right: 10%;
+    -ms-transform: translateX(-5%);
+    transform: translateX(-5%);
+    
+    text-align: center;
+}
+
+form, input[type = "button"]:hover{background-color:rgb(138, 98, 74);}
+
+.centre{
+    text-align:right;
+    text-align: centre;
+    width: 100%;
+    margin: 0;
+    display:block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    -ms-transform: translate(-50%, -5%);
+    transform: translateY(-50%, -5%);
+    
+    
+}
+.centre strong{
+    font-size: 43px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    font-family: cursive;
+    letter-spacing: 0.5em;
+    line-height: 1.8em;
+    text-decoration: none;
+    hyphens: auto;
+    position: relative;
+    z-index: inherit;
+    color: darkslategrey;
+    opacity: 1;
+}
+
+.wd1{ 
+    background-color: black;
+    width: 300px;
+    height: 500px;
+    padding: 100px;
+    opacity: 0.75;
+    padding: 40px;
+    float: right;
+    top: 30%;
+    -ms-transform: translateY(30%);
+    transform: translateY(30%);
+}
+
+.wd1 h2{
+    text-align: center;
+    color: rgb(138, 98, 74) ;
+    text-transform: uppercase;
+    font-weight: 90px;
+    word-spacing: .4em;
+    font-family: cursive;
+}
+
+.wd1 h4{
+    text-align: centre;
+    color: darkgrey;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin: 50px auto;
+    font-family:cursive;
+}
+
+.opt1 form, input[type = "button"]{
+    background-color: black;
+    color:silver;
+    opacity: 110%;
+    padding: 10px;
+    margin: -14px auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family:cursive;
+    right: 10%;
+    -ms-transform: translateX(-5%);
+    transform: translateX(-5%);
+    
+    text-align: center;
+}
+
+form, input[type = "button"]:hover{background-color:rgb(138, 98, 74);}
+
+.centre1{
+text-align:right;
+    text-align: centre;
+    width: 100%;
+    margin: 0;
+    display:block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    position: absolute;
+    top: 175%;
+    left: -40%;
+    -ms-transform: translate(-175%, -40%);
+    transform: translateY(-175%, -40%);
+}
+
+.centre1 strong{
+    font-size: 43px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    font-family: cursive;
+    letter-spacing: 0.5em;
+    line-height: 1.8em;
+    text-decoration: none;
+    hyphens: auto;
+    position: relative;
+    z-index: inherit;
+    color:darkslategrey;
+    opacity:1;
+}
+
+
+

@@ -1,0 +1,51 @@
+body{
+    font-family: latha;
+    color: black;
+    background: url(/img/coffee\ barista\ background.jpg)
+    no-repeat;
+    background-size: cover;
+}
+
+.box{
+width: 900px;
+float: right;
+border: 1px solid none;
+padding-right: -100px;
+}
+
+.box ul li{
+    width: 120px;
+    float: left;
+    margin: 10px auto;
+    text-align: right;
+    position:sticky;
+    font: bold;
+    color:rgb(156, 58, 58);
+}
+
+.box ul li a{
+text-decoration: none;
+font-family:cursive, Calibri, 'Trebuchet MS', sans-serif, bold;
+font:bold;
+color:rgb(138, 98, 74);
+}
+
+.box ul li a:hover{color:silver};
+
+.head{
+    padding: 50px;
+    border: 1px solid;
+    position: sticky;
+}
+
+.head h2{
+    float: left;
+    border: 1px solid none;
+    text-decoration: none;
+    font-family:cursive, Calibri, 'Trebuchet MS', sans-serif, bold;
+    font:xx-large;
+    top:-20%;
+    -ms-transform: translateY(-20%);
+    transform: translateY(-20%);
+    color:rgb(138, 98, 74);
+}
